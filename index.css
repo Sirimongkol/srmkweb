@@ -1,0 +1,150 @@
+html {
+  min-height: 100%;
+}
+
+html * {
+  font-family: "Prompt", sans-serif;
+}
+
+body {
+  height: 100%;
+  background: #ffffff;
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(229, 238, 175, 1) 50%,
+    rgba(92, 164, 132, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.brand-text {
+  font-family: "Chonburi", cursive;
+  font-size: 1.5rem !important;
+  font-weight: 700;
+  color: #086834 !important;
+  letter-spacing: 2px;
+}
+
+.btn {
+  font-family: "Chonburi";
+  color: #086834 !important;
+}
+.btn :hover {
+  color: #fefefe !important;
+}
+
+.hero-box {
+  height: 100%;
+  background: #eaf2c1;
+  border-radius: 60px;
+  padding: 3rem 0rem;
+}
+
+.capsule-box {
+  margin-top: 3rem;
+  height: 140px;
+  position: relative;
+}
+
+.brand-capsule,
+.brand-capsule-2 {
+  background-color: #eaf2c1;
+  width: fit-content;
+  font-size: 2.5rem;
+  padding: 1rem;
+  font-family: "Chonburi", cursive;
+  color: #086834;
+  border: 2px solid #086834;
+  border-radius: 500px;
+  letter-spacing: 2px;
+  position: absolute;
+}
+.brand-capsule-2 {
+  background-color: #eaf2c1;
+  font-family: "Prompt", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  width: 12rem;
+  text-align: center;
+  padding: 0.5rem;
+  position: absolute;
+  top: 70px;
+  left: 40px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #086834;
+}
+
+.capsule,
+#capsule-1,
+#capsule-2 {
+  font-family: "Chonburi", cursive;
+  background-color: #eaf2c1;
+  width: fit-content;
+  font-size: 2rem;
+  padding: 1rem;
+  color: #086834;
+  border: 2px solid #086834;
+  border-radius: 500px;
+  margin: 0px 15px;
+}
+#capsule-1 {
+  background: linear-gradient(
+    160deg,
+    #F5EF87 25%,
+    #F57253
+  );
+}
+#capsule-2 {
+  color: #020403;
+  background: linear-gradient(
+    160deg,
+    #E2EDB2,
+    #43A065
+  );
+}
+
+.carousel,
+.slide,
+.carousel .carousel-inner,
+.carousel .carousel-item,
+.carousel .carousel-item img,
+.carousel .carousel-control {
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.section-box {
+  margin-top: 5rem;
+  margin-left: 2.5rem;
+  height: 130px;
+  position: relative;
+}
+
+#word-1,
+#word-2,
+#word-3 {
+  font-family: "Chonburi", cursive;
+  position: absolute;
+}
+#word-1 {
+  font-size: 3rem;
+  color: #00954a;
+  letter-spacing: 2px;
+}
+#word-2 {
+  font-size: 2.5rem;
+  color: #00683c;
+  letter-spacing: 2px;
+  top: 2.5rem;
+}
+#word-3 {
+  font-size: 3.5rem;
+  color: #fefefe;
+  letter-spacing: 2px;
+  top: 3.5rem;
+  left: 10rem;
+}
