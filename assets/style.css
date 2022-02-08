@@ -106,6 +106,12 @@ body {
     #43A065
   );
 }
+#capsule-x {
+  font-size: 5rem;
+  position: relative;
+  top: 1.25rem;
+  line-height: 50%;
+}
 
 .carousel,
 .slide,
@@ -147,4 +153,15 @@ body {
   letter-spacing: 2px;
   top: 3.5rem;
   left: 10rem;
+  text-shadow: 2px 2px #020403;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #word-3{
+    font-size: 2.5rem;
+  }
+  #capsule-x {
+    top: 0.8rem;
+  }
 }
