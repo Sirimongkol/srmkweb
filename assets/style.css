@@ -44,7 +44,7 @@ body {
 }
 
 .capsule-box {
-  margin-top: 3rem;
+  margin-top: 5rem;
   height: 140px;
   position: relative;
 }
@@ -53,7 +53,7 @@ body {
 .brand-capsule-2 {
   background-color: #eaf2c1;
   width: fit-content;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   padding: 1rem;
   font-family: "Chonburi", cursive;
   color: #086834;
