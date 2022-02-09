@@ -38,7 +38,7 @@ body {
 
 .hero-box {
   height: 100%;
-  background: #eaf2c1;
+  background: linear-gradient(160deg, #f8fcec 0%, #e9f2c4 100%);
   border-radius: 60px;
   padding: 3rem 0rem;
 }
@@ -63,7 +63,6 @@ body {
   position: absolute;
 }
 .brand-capsule-2 {
-  background-color: #eaf2c1;
   font-family: "Prompt", sans-serif;
   font-size: 2rem;
   letter-spacing: 2px;
@@ -92,19 +91,11 @@ body {
   margin: 0px 15px;
 }
 #capsule-1 {
-  background: linear-gradient(
-    160deg,
-    #F5EF87 25%,
-    #F57253
-  );
+  background: linear-gradient(160deg, #f5ef87 25%, #f57253);
 }
 #capsule-2 {
   color: #020403;
-  background: linear-gradient(
-    160deg,
-    #E2EDB2,
-    #43A065
-  );
+  background: linear-gradient(160deg, #e2edb2, #43a065);
 }
 #capsule-x {
   font-size: 5rem;
@@ -153,13 +144,34 @@ body {
   letter-spacing: 2px;
   top: 3.5rem;
   left: 10rem;
-  text-shadow: 2px 2px #020403;
+  text-shadow: 1px 1px 2px #020403;
 }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  #word-3{
-    font-size: 2.5rem;
+  .brand-capsule {
+    font-size: 2.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+  }
+  .brand-capsule-2 {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -5%);
+  }
+  #word-1 {
+    font-size: 2.4rem;
+  }
+  #word-2 {
+    font-size: 2rem;
+  }
+  #word-3 {
+    font-size: 2.2rem;
+    left: 8rem;
   }
   #capsule-x {
     top: 0.8rem;
