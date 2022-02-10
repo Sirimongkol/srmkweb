@@ -168,6 +168,19 @@ body {
   line-height: 0.5rem;
 }
 
+footer {
+  margin-top: 5rem;
+  border-radius: 50px 50px 0px 0px;
+  opacity: 0.9;
+}
+#footer-logo {
+  height: 10rem;
+  width: auto;
+  position: relative;
+  top: -1rem;
+  left: 1rem;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .brand-capsule {
@@ -198,5 +211,8 @@ body {
     font-size: 2.2rem;
     top: 4.8rem;
     left: 5.5rem;
+  }
+  #footer-logo {
+    left: 0rem;
   }
 }
