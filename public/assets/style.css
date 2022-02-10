@@ -213,6 +213,7 @@ footer {
     left: 5.5rem;
   }
   #footer-logo {
+    height: 12rem;
     left: 0rem;
   }
 }
