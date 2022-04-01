@@ -1,4 +1,3 @@
 /*
-	X-Requested-With: XMLHttpRequest
-	Access-Control-Allow-Origin: *
-	X-Frame-Options: allow-from *
+	# Access-Control-Allow-Origin: *
+	# X-Frame-Options: allow-from *
