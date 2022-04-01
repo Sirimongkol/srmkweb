@@ -1,4 +1,4 @@
 /*
-	Access-Control-Allow-Origin: https://www.facebook.com https://web.facebook.com
+	Access-Control-Allow-Origin: *
 	X-Frame-Options: allow-from https://www.facebook.com https://web.facebook.com
-	Content-Security-Policy: frame-ancestors 'self' www.facebook.com web.facebook.com;
+	Content-Security-Policy: frame-ancestors 'self' www.facebook.com web.facebook.com ;
