@@ -92,6 +92,33 @@ body {
   -webkit-text-stroke-color: #086834;
 }
 
+.title {
+  margin-top: 3rem;
+  height: 140px;
+  position: relative;
+}
+.title-1 {
+  font-family: "Chonburi", cursive;
+  font-size: 2.2rem;
+  color: #086834;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 25px;
+  left: 55px;
+}
+.title-2 {
+  font-family: "Chonburi", cursive;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  padding: 0.5rem;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #086834;
+}
+
 .capsule,
 #capsule-1,
 #capsule-2 {
