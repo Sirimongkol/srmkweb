@@ -61,6 +61,10 @@
           <div class="title-1">OUR</div>
           <div class="title-2">BLOG</div>
         </div>
+
+        <!-- skeleton loading starts -->
+        <div id="skeleton" class="row p-4 mt-3"></div>
+        <!-- skeleton loading ends -->
       </div>
     </div>
     <!-- content wrapper ends -->
@@ -80,6 +84,8 @@
     <script src="js/main.js"></script>
 
     <script>
+      $("#skeleton").load("common/card-skeleton-2.html");
+
       AOS.init();
     </script>
   </body>
