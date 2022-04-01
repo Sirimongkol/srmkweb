@@ -1,4 +1,4 @@
 /*
 	X-Requested-With: XMLHttpRequest
 	Access-Control-Allow-Origin: *
-	X-Frame-Options: allow-from https://www.facebook.com https://web.facebook.com
+	X-Frame-Options: allow-from *
