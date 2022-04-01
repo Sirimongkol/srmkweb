@@ -205,6 +205,13 @@ footer {
     left: 50%;
     transform: translate(-40%, -5%);
   }
+  #nav-logo {
+    height: 4rem;
+    width: auto;;
+  }
+  #nav-title {
+    font-size: 1.4rem !important;
+  }
   #capsule-x {
     top: 0.8rem;
   }
