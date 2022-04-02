@@ -233,11 +233,11 @@ footer {
     transform: translate(-40%, -5%);
   }
   #nav-logo {
-    height: 4rem;
+    height: 3.5rem;
     width: auto;
   }
   #nav-title {
-    font-size: 1.4rem !important;
+    font-size: 1.3rem !important;
   }
   #capsule-x {
     top: 0.8rem;
