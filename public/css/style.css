@@ -103,8 +103,8 @@ body {
   color: #086834;
   letter-spacing: 2px;
   position: absolute;
-  top: 25px;
-  left: 55px;
+  top: 1.5rem;
+  left: 3.4rem;
 }
 .title-2 {
   font-family: "Chonburi", cursive;
@@ -112,11 +112,32 @@ body {
   letter-spacing: 2px;
   padding: 0.5rem;
   position: absolute;
-  top: 50px;
-  left: 50px;
+  top: 3rem;
+  left: 3rem;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #086834;
+}
+.title-3 {
+  font-family: "Chonburi", cursive;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  padding: 0.5rem;
+  position: absolute;
+  top: 0rem;
+  left: 3rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #086834;
+}
+.title-4 {
+  font-family: "Chonburi", cursive;
+  font-size: 2.2rem;
+  color: #086834;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 4rem;
+  left: 3.6rem;
 }
 
 .capsule,
