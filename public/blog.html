@@ -87,6 +87,7 @@
           data-aos-duration="1000"
         >
           <iframe
+            id="fb-page"
             src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSIRIMONGKOLsrmk-104310515264278%2F&tabs=timeline&width=400&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=140557659324664"
             width="400"
             height="700"
@@ -118,6 +119,30 @@
 
     <script>
       $("#skeleton").load("common/card-skeleton-2.html");
+
+      // Set fb-page width
+      const fbPage = document.getElementById("fb-page");
+
+      function matchWidth(x) {
+        if (x.matches) {
+          fbPage.setAttribute(
+            "src",
+            "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSIRIMONGKOLsrmk-104310515264278%2F&tabs=timeline&width=400&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=140557659324664"
+          );
+          fbPage.setAttribute("width", "400");
+        } else {
+          let width = parseInt(window.innerWidth * 0.9);
+          fbPage.setAttribute(
+            "src",
+            `https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSIRIMONGKOLsrmk-104310515264278%2F&tabs=timeline&width=${width}&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=140557659324664`
+          );
+          fbPage.setAttribute("width", width);
+        }
+      }
+
+      const x = window.matchMedia("(min-width: 400px)");
+      matchWidth(x); // Call listener function at run time
+      x.addListener(matchWidth); // Attach listener function on state changes
 
       AOS.init();
     </script>
